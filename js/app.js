@@ -190,6 +190,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let displayIndex = 0;
 
     const smallTetrominoes = [
+        [1, displayWidth + 1, displayWidth * 2 + 1, 2],
+        [0, displayWidth, displayWidth + 1, displayWidth *2 + 1],
+        [1, displayWidth, displayWidth + 1, displayWidth + 2],
         
     ]
 })
